@@ -34,3 +34,71 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* Water Ripple & App Splash Animations */
+@keyframes waterRipple {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.45;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+@keyframes waterPulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 16px rgba(45, 191, 208, 0.45));
+  }
+  50% {
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 28px rgba(45, 191, 208, 0.85));
+  }
+}
+
+@keyframes shimmerFlow {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-water-ripple {
+  animation: waterRipple 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.animate-water-ripple-delayed {
+  animation: waterRipple 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  animation-delay: 1.2s;
+}
+
+.animate-water-pulse {
+  animation: waterPulse 2.8s ease-in-out infinite;
+}
+
+.animate-shimmer-flow {
+  background: linear-gradient(90deg, rgba(45,191,208,0.2) 0%, rgba(45,191,208,0.85) 50%, rgba(45,191,208,0.2) 100%);
+  background-size: 200% 100%;
+  animation: shimmerFlow 1.8s linear infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 3s ease-in-out infinite;
+}
+

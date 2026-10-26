@@ -1,0 +1,18 @@
+{
+  "name": "जल सेवा — Jal Seva Water Supply",
+  "short_name": "जल सेवा",
+  "description": "Smart, Simple & Transparent Municipal Drinking Water Management App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B2545",
+  "theme_color": "#0B2545",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -6,6 +6,11 @@
   --jal-teal: #239F83;
   --jal-amber: #F4A340;
   --jal-pale-blue: #EEF8FC;
+  --jal-white: #FFFFFF;
+  --jal-slate-900: #182B3A;
+  --jal-slate-600: #5D6B78;
+  --jal-border: #D7E5EC;
+  --jal-danger: #C74646;
 
   /* Semantic UI Tokens */
   --color-primary: #001026;
@@ -15,8 +20,17 @@
   --color-tertiary: #009baa;
   --color-surface: #f7f9ff;
   --color-surface-container: #e1efff;
+  --color-surface-container-low: #ecf4ff;
   --color-surface-container-high: #d7eaff;
+  --color-surface-container-highest: #d1e5f9;
   --color-surface-container-lowest: #ffffff;
   --color-on-surface: #091d2c;
   --color-on-surface-variant: #44474e;
+
+  /* Typography & Sizing */
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-input: 12px;
+  --radius-badge: 9999px;
 }
+

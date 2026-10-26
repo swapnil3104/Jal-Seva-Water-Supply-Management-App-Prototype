@@ -86,10 +86,10 @@ The prototype is considered complete when:
 ### TASK-003: Implement Design Tokens
 **Priority:** Must  
 **Tasks**
-- [ ] Add colour tokens: navy `#0B2545`, blue `#087DB8`, cyan `#2DBFD0`, teal `#239F83`, amber `#F4A340`, pale blue `#EEF8FC`.
-- [ ] Define typography, spacing, radii, borders, and shadow rules.
-- [ ] Create reusable button, card, input, status badge, modal, and toast styles.
-- [ ] Check text contrast and focus states.
+- [x] Add colour tokens: navy `#0B2545`, blue `#087DB8`, cyan `#2DBFD0`, teal `#239F83`, amber `#F4A340`, pale blue `#EEF8FC`.
+- [x] Define typography, spacing, radii, borders, and shadow rules.
+- [x] Create reusable button, card, input, status badge, modal, and toast styles.
+- [x] Check text contrast and focus states.
 
 **Acceptance criteria**
 - Components use shared tokens instead of unrelated hard-coded values.
@@ -98,12 +98,12 @@ The prototype is considered complete when:
 ### TASK-004: Build Responsive Navigation and Layouts
 **Priority:** Must  
 **Tasks**
-- [ ] Build welcome layout.
-- [ ] Build citizen header and mobile bottom navigation.
-- [ ] Build admin sidebar or responsive drawer.
-- [ ] Add page title/header component.
-- [ ] Add visible “Prototype / Sample Data” banner.
-- [ ] Make navigation adapt to mobile, tablet, and desktop.
+- [x] Build welcome layout.
+- [x] Build citizen header and mobile bottom navigation.
+- [x] Build admin sidebar or responsive drawer.
+- [x] Add page title/header component.
+- [x] Add visible “Prototype / Sample Data” banner.
+- [x] Make navigation adapt to mobile, tablet, and desktop.
 
 **Acceptance criteria**
 - Navigation works across all main screens.
@@ -117,11 +117,11 @@ The prototype is considered complete when:
 ### TASK-005: Welcome and Demo Entry
 **Priority:** Must  
 **Tasks**
-- [ ] Show Jal Seva branding and Marathi tagline.
-- [ ] Add “नागरिक म्हणून पुढे जा” button.
-- [ ] Add “Admin Demo” button.
-- [ ] Add prototype-only notice.
-- [ ] Route each button to the correct dashboard.
+- [x] Show Jal Seva branding and Marathi tagline.
+- [x] Add “नागरिक म्हणून पुढे जा” button.
+- [x] Add “Admin Demo” button.
+- [x] Add prototype-only notice.
+- [x] Route each button to the correct dashboard.
 
 **Acceptance criteria**
 - Both entry buttons work.
@@ -130,12 +130,12 @@ The prototype is considered complete when:
 ### TASK-006: Citizen Dashboard
 **Priority:** Must  
 **Tasks**
-- [ ] Add greeting and fictional selected area.
-- [ ] Add today's sample water schedule card.
-- [ ] Add service cards for schedule, complaint, bills, and tanker request.
-- [ ] Add recent sample notices.
-- [ ] Add recent complaint/request status summary.
-- [ ] Add sensible empty states.
+- [x] Add greeting and fictional selected area.
+- [x] Add today's sample water schedule card.
+- [x] Add service cards for schedule, complaint, bills, and tanker request.
+- [x] Add recent sample notices.
+- [x] Add recent complaint/request status summary.
+- [x] Add sensible empty states.
 
 **Acceptance criteria**
 - All service cards open the appropriate screen.
@@ -144,11 +144,11 @@ The prototype is considered complete when:
 ### TASK-007: Water Schedule
 **Priority:** Must  
 **Tasks**
-- [ ] Display area selector and day/date selector.
-- [ ] Show sample start/end time and status.
-- [ ] Display relevant sample maintenance/interruption notice.
-- [ ] Handle areas/dates with no schedule using an empty state.
-- [ ] Add demo data label.
+- [x] Display area selector and day/date selector.
+- [x] Show sample start/end time and status.
+- [x] Display relevant sample maintenance/interruption notice.
+- [x] Handle areas/dates with no schedule using an empty state.
+- [x] Add demo data label.
 
 **Acceptance criteria**
 - Area/date controls update the displayed mock data.
@@ -157,12 +157,12 @@ The prototype is considered complete when:
 ### TASK-008: Complaint Registration
 **Priority:** Must  
 **Tasks**
-- [ ] Build complaint form with category, area, address/landmark, and description.
-- [ ] Make required fields explicit.
-- [ ] Add optional photo attachment preview if feasible.
-- [ ] Add inline validation.
-- [ ] Create a unique demo complaint ID on successful submit.
-- [ ] Show a success state and explicit prototype disclaimer.
+- [x] Build complaint form with category, area, address/landmark, and description.
+- [x] Make required fields explicit.
+- [x] Add optional photo attachment preview if feasible.
+- [x] Add inline validation.
+- [x] Create a unique demo complaint ID on successful submit.
+- [x] Show a success state and explicit prototype disclaimer.
 
 **Acceptance criteria**
 - Invalid form does not submit.
@@ -172,11 +172,11 @@ The prototype is considered complete when:
 ### TASK-009: My Complaints and Tracking
 **Priority:** Must  
 **Tasks**
-- [ ] List sample and newly created complaints.
-- [ ] Display ID, category, area, date, and status.
-- [ ] Add complaint detail view.
-- [ ] Show status timeline and staff note.
-- [ ] Add an empty state with a register-complaint action.
+- [x] List sample and newly created complaints.
+- [x] Display ID, category, area, date, and status.
+- [x] Add complaint detail view.
+- [x] Show status timeline and staff note.
+- [x] Add an empty state with a register-complaint action.
 
 **Acceptance criteria**
 - Newly submitted complaints appear without manual refresh.
@@ -185,11 +185,11 @@ The prototype is considered complete when:
 ### TASK-010: Bills and Payment Demo
 **Priority:** Must  
 **Tasks**
-- [ ] Display fictional customer number and sample bill.
-- [ ] Show amount, billing period, due date, and payment status.
-- [ ] Add view-bill interaction.
-- [ ] Make the payment action open a demo-only modal.
-- [ ] Never request payment credentials or call a payment service.
+- [x] Display fictional customer number and sample bill.
+- [x] Show amount, billing period, due date, and payment status.
+- [x] Add view-bill interaction.
+- [x] Make the payment action open a demo-only modal.
+- [x] Never request payment credentials or call a payment service.
 
 **Acceptance criteria**
 - Bill details are visible.
@@ -198,11 +198,11 @@ The prototype is considered complete when:
 ### TASK-011: Tanker Request
 **Priority:** Should  
 **Tasks**
-- [ ] Build form for area, address, reason, preferred date, and notes.
-- [ ] Validate required fields.
-- [ ] Generate a demo request ID.
-- [ ] Show confirmation and demo status.
-- [ ] Make the request visible in the admin view if implemented.
+- [x] Build form for area, address, reason, preferred date, and notes.
+- [x] Validate required fields.
+- [x] Generate a demo request ID.
+- [x] Show confirmation and demo status.
+- [x] Make the request visible in the admin view if implemented.
 
 **Acceptance criteria**
 - Valid submission creates a visible mock request.
@@ -211,10 +211,10 @@ The prototype is considered complete when:
 ### TASK-012: Notices and Profile
 **Priority:** Should  
 **Tasks**
-- [ ] Display sample notices by area, type, date, and message.
-- [ ] Build a fictional demo profile screen.
-- [ ] Add logout/back-to-welcome interaction.
-- [ ] Avoid collecting real personal information.
+- [x] Display sample notices by area, type, date, and message.
+- [x] Build a fictional demo profile screen.
+- [x] Add logout/back-to-welcome interaction.
+- [x] Avoid collecting real personal information.
 
 **Acceptance criteria**
 - Notices are easy to read and clearly labelled as samples.
@@ -227,11 +227,11 @@ The prototype is considered complete when:
 ### TASK-013: Admin Dashboard
 **Priority:** Must  
 **Tasks**
-- [ ] Add KPI cards for new, in-progress, and resolved complaints.
-- [ ] Add tanker request count.
-- [ ] Add recent complaint list.
-- [ ] Add shortcuts to complaint, schedule, notice, and tanker sections.
-- [ ] Add “Demo Admin” label.
+- [x] Add KPI cards for new, in-progress, and resolved complaints.
+- [x] Add tanker request count.
+- [x] Add recent complaint list.
+- [x] Add shortcuts to complaint, schedule, notice, and tanker sections.
+- [x] Add “Demo Admin” label.
 
 **Acceptance criteria**
 - KPIs are derived from mock state where practical.
@@ -240,11 +240,11 @@ The prototype is considered complete when:
 ### TASK-014: Complaint Management
 **Priority:** Must  
 **Tasks**
-- [ ] Build complaint list with status/category filters.
-- [ ] Add complaint details page.
-- [ ] Add status selector and staff note.
-- [ ] Save updates to shared state.
-- [ ] Show success feedback.
+- [x] Build complaint list with status/category filters.
+- [x] Add complaint details page.
+- [x] Add status selector and staff note.
+- [x] Save updates to shared state.
+- [x] Show success feedback.
 
 **Acceptance criteria**
 - Admin can change a complaint status.
@@ -253,11 +253,11 @@ The prototype is considered complete when:
 ### TASK-015: Schedule and Notice Management
 **Priority:** Should  
 **Tasks**
-- [ ] Build sample schedule list and editor.
-- [ ] Build sample notice list and editor.
-- [ ] Save changes to shared prototype state.
-- [ ] Reflect edits on citizen-facing screens.
-- [ ] Keep all edited records marked as demo content.
+- [x] Build sample schedule list and editor.
+- [x] Build sample notice list and editor.
+- [x] Save changes to shared prototype state.
+- [x] Reflect edits on citizen-facing screens.
+- [x] Keep all edited records marked as demo content.
 
 **Acceptance criteria**
 - Admin can create/update sample schedules or notices.
@@ -266,9 +266,9 @@ The prototype is considered complete when:
 ### TASK-016: Tanker Request Admin View
 **Priority:** Should  
 **Tasks**
-- [ ] List demo tanker requests.
-- [ ] Show request ID, area, reason, date, and status.
-- [ ] Allow a simulated status update if time permits.
+- [x] List demo tanker requests.
+- [x] Show request ID, area, reason, date, and status.
+- [x] Allow a simulated status update if time permits.
 
 **Acceptance criteria**
 - Submitted demo requests can be reviewed in the admin interface.
@@ -280,10 +280,10 @@ The prototype is considered complete when:
 ### TASK-017: Shared Prototype State
 **Priority:** Must  
 **Tasks**
-- [ ] Store schedules, complaints, bills, tanker requests, notices, and demo profile in one shared state layer.
-- [ ] Use React Context + `useReducer` or an equivalent simple approach.
-- [ ] Ensure citizen and admin pages read from the same state.
-- [ ] Provide a reset-demo-data action if persistent changes are used.
+- [x] Store schedules, complaints, bills, tanker requests, notices, and demo profile in one shared state layer.
+- [x] Use React Context + `useReducer` or an equivalent simple approach.
+- [x] Ensure citizen and admin pages read from the same state.
+- [x] Provide a reset-demo-data action if persistent changes are used.
 
 **Acceptance criteria**
 - Creating or editing a record updates all relevant screens consistently.
@@ -291,10 +291,10 @@ The prototype is considered complete when:
 ### TASK-018: Mock Service Functions
 **Priority:** Must  
 **Tasks**
-- [ ] Implement mock functions for list, create, read, and update operations.
-- [ ] Centralize demo ID generation.
-- [ ] Handle missing records and invalid updates gracefully.
-- [ ] Do not add network requests or real API dependencies.
+- [x] Implement mock functions for list, create, read, and update operations.
+- [x] Centralize demo ID generation.
+- [x] Handle missing records and invalid updates gracefully.
+- [x] Do not add network requests or real API dependencies.
 
 **Acceptance criteria**
 - Data operations are separated from page presentation.
@@ -303,10 +303,10 @@ The prototype is considered complete when:
 ### TASK-019: Optional Local Persistence
 **Priority:** Optional  
 **Tasks**
-- [ ] Persist non-sensitive demo records in local storage only if useful.
-- [ ] Handle invalid/unavailable stored data gracefully.
-- [ ] Provide reset functionality.
-- [ ] Do not store passwords, real phone numbers, or payment data.
+- [x] Persist non-sensitive demo records in local storage only if useful.
+- [x] Handle invalid/unavailable stored data gracefully.
+- [x] Provide reset functionality.
+- [x] Do not store passwords, real phone numbers, or payment data.
 
 **Acceptance criteria**
 - Demo edits survive refresh if persistence is enabled.
@@ -319,11 +319,11 @@ The prototype is considered complete when:
 ### TASK-020: Responsive and Visual QA
 **Priority:** Must  
 **Tasks**
-- [ ] Test widths around 320 px, 375 px, 768 px, 1024 px, and desktop.
-- [ ] Check cards, forms, navigation, modals, and tables.
-- [ ] Check Marathi text wrapping and Devanagari rendering.
-- [ ] Check button contrast, focus states, and touch target sizes.
-- [ ] Fix horizontal overflow and clipping.
+- [x] Test widths around 320 px, 375 px, 768 px, 1024 px, and desktop.
+- [x] Check cards, forms, navigation, modals, and tables.
+- [x] Check Marathi text wrapping and Devanagari rendering.
+- [x] Check button contrast, focus states, and touch target sizes.
+- [x] Fix horizontal overflow and clipping.
 
 **Acceptance criteria**
 - Main flows work at mobile and desktop sizes.
@@ -332,15 +332,15 @@ The prototype is considered complete when:
 ### TASK-021: Functional QA
 **Priority:** Must  
 **Tasks**
-- [ ] Test citizen and admin entry.
-- [ ] Test all primary navigation links.
-- [ ] Test invalid and valid complaint submissions.
-- [ ] Test tracking after complaint creation.
-- [ ] Test admin status update and citizen status reflection.
-- [ ] Test tanker request submission.
-- [ ] Test bill and demo-payment modal.
-- [ ] Test schedule/notice editing if implemented.
-- [ ] Check empty states and missing IDs.
+- [x] Test citizen and admin entry.
+- [x] Test all primary navigation links.
+- [x] Test invalid and valid complaint submissions.
+- [x] Test tracking after complaint creation.
+- [x] Test admin status update and citizen status reflection.
+- [x] Test tanker request submission.
+- [x] Test bill and demo-payment modal.
+- [x] Test schedule/notice editing if implemented.
+- [x] Check empty states and missing IDs.
 
 **Acceptance criteria**
 - No broken primary actions or critical flow blockers.
@@ -348,12 +348,12 @@ The prototype is considered complete when:
 ### TASK-022: Final Demo Preparation
 **Priority:** Must  
 **Tasks**
-- [ ] Add realistic but fictional demo records.
-- [ ] Confirm all sample data is labelled.
-- [ ] Remove debug text and obvious placeholder defects.
-- [ ] Add README with setup/run instructions.
-- [ ] Verify the app starts from a clean install.
-- [ ] Prepare a short demonstration path.
+- [x] Add realistic but fictional demo records.
+- [x] Confirm all sample data is labelled.
+- [x] Remove debug text and obvious placeholder defects.
+- [x] Add README with setup/run instructions.
+- [x] Verify the app starts from a clean install.
+- [x] Prepare a short demonstration path.
 
 **Acceptance criteria**
 - Project can be launched and presented without external service credentials.

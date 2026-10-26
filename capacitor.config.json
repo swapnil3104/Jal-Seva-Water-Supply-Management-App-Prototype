@@ -1,0 +1,13 @@
+{
+  "appId": "gov.pmc.jalseva",
+  "appName": "Jal Seva",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

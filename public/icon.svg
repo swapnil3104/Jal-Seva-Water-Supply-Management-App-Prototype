@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="50%" stop-color="#087DB8"/>
+      <stop offset="100%" stop-color="#2DBFD0"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#EEF8FC"/>
+      <stop offset="100%" stop-color="#2DBFD0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#001026" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded app icon -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Water ripple rings -->
+  <circle cx="256" cy="275" r="180" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="4"/>
+  <circle cx="256" cy="275" r="140" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3"/>
+
+  <!-- Main Water Droplet Shape -->
+  <path d="M256 80 C256 80 144 240 144 320 C144 381.8 194.2 432 256 432 C317.8 432 368 381.8 368 320 C368 240 256 80 256 80 Z" fill="url(#drop)" filter="url(#glow)"/>
+
+  <!-- Inner droplet reflection highlight -->
+  <path d="M210 240 C190 280 185 320 200 350 C205 320 215 285 235 250 Z" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Small accent shield emblem -->
+  <circle cx="360" cy="380" r="48" fill="#239F83"/>
+  <path d="M360 355 L384 367 V388 C384 402 374 414 360 418 C346 414 336 402 336 388 V367 Z" fill="#FFFFFF"/>
+  <path d="M352 386 L358 392 L370 378" fill="none" stroke="#239F83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

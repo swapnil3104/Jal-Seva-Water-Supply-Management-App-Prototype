@@ -14,6 +14,12 @@ export default {
         'jal-teal': '#239F83',
         'jal-amber': '#F4A340',
         'jal-pale-blue': '#EEF8FC',
+        'jal-border': '#D7E5EC',
+        'jal-danger': '#C74646',
+        'jal-slate': {
+          900: '#182B3A',
+          600: '#5D6B78',
+        },
         
         // Stitch / Semantic UI Tokens
         primary: {
@@ -44,6 +50,16 @@ export default {
           DEFAULT: '#091d2c',
           variant: '#44474e',
         },
+      },
+      borderRadius: {
+        'card': '16px',
+        'button': '12px',
+        'input': '12px',
+      },
+      boxShadow: {
+        'card': '0 2px 8px -2px rgba(11, 37, 69, 0.06), 0 1px 4px -1px rgba(11, 37, 69, 0.04)',
+        'card-hover': '0 8px 20px -4px rgba(11, 37, 69, 0.10), 0 4px 8px -2px rgba(11, 37, 69, 0.06)',
+        'elevated': '0 12px 28px -6px rgba(11, 37, 69, 0.14), 0 6px 12px -3px rgba(11, 37, 69, 0.08)',
       },
       fontFamily: {
         sans: ['"Noto Sans Devanagari"', '"Noto Sans"', 'Inter', 'system-ui', 'sans-serif'],
