@@ -1,0 +1,22 @@
+:root {
+  /* Jal Seva Brand Tokens */
+  --jal-navy: #0B2545;
+  --jal-blue: #087DB8;
+  --jal-cyan: #2DBFD0;
+  --jal-teal: #239F83;
+  --jal-amber: #F4A340;
+  --jal-pale-blue: #EEF8FC;
+
+  /* Semantic UI Tokens */
+  --color-primary: #001026;
+  --color-primary-container: #0B2545;
+  --color-secondary: #006495;
+  --color-secondary-container: #6cc0ff;
+  --color-tertiary: #009baa;
+  --color-surface: #f7f9ff;
+  --color-surface-container: #e1efff;
+  --color-surface-container-high: #d7eaff;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #091d2c;
+  --color-on-surface-variant: #44474e;
+}
